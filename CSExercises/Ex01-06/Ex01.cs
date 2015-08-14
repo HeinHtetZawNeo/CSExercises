@@ -11,7 +11,6 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             System.Console.WriteLine("Good Morning Venkat");
-            System.Console.Read();
             System.Console.WriteLine("Good Morning Venkat");
         }
     }
