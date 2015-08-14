@@ -10,7 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.Write("Enter Number : ");
+            try
+            {
+                double number = Convert.ToDouble(System.Console.ReadLine());
+                System.Console.WriteLine("Answer is "+ Math.Sqrt(number));
+            }
+            catch (Exception ex)
+            {
+                System.Console.WriteLine("Wrong input");
+            }
         }
     }
 }
