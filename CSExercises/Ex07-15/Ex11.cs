@@ -10,7 +10,16 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            System.Console.Write("Enter total kilmeter : ");
+            try
+            {
+                double kilo = Convert.ToDouble(System.Console.ReadLine());
+                System.Console.WriteLine("total price is {0}",2.4+(0.4*kilo));
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
